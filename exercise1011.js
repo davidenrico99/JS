@@ -1,7 +1,10 @@
 var numbers = ["5","7","11","15"];
-// console.log(numbers [1]);
-
 console.log(numbers);
-numbers.push(9);
+let start = 2;
+let deleteCount = 0;
+console.log(numbers.splice(start, deleteCount, "9"));
 console.log(numbers);
-
+console.log(numbers.shift());
+console.log(numbers);
+console.log(numbers.splice(2,1));
+console.log(numbers);
